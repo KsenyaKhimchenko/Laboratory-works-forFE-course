@@ -1,0 +1,196 @@
+/* =========================
+   ЗАГАЛЬНІ СТИЛІ
+   ========================= */
+
+   body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+
+/* ==================================================
+   ЗАВДАННЯ 1
+   БЛОЧНА ВЕРСТКА ЗА ДОПОМОГОЮ FLOAT
+   ================================================== */
+
+.float-layout {
+    width: 70%;
+    margin: 30px auto 80px auto;
+}
+
+
+/* Верхній синій блок */
+
+.float-header {
+    width: 100%;
+    height: 100px;
+
+    background-color: #6fa8dc;
+
+    font-size: 32px;
+    font-weight: bold;
+
+    text-align: center;
+    line-height: 100px;
+}
+
+
+/* Середня частина */
+
+.float-main {
+    width: 100%;
+}
+
+
+/* Лівий зелений блок */
+
+.float-image {
+    width: 75%;
+    height: 250px;
+
+    float: left;
+
+    background-color: #b7e684;
+
+    font-size: 32px;
+    font-weight: bold;
+
+    text-align: center;
+    line-height: 250px;
+}
+
+
+/* Правий зелений блок */
+
+.float-text {
+    width: 25%;
+    height: 250px;
+
+    float: left;
+
+    background-color: #93b273;
+
+    font-size: 32px;
+    font-weight: bold;
+
+    text-align: center;
+    line-height: 250px;
+}
+
+
+/* Нижній рожевий блок */
+
+.float-footer {
+    width: 100%;
+    height: 160px;
+
+    clear: both;
+
+    background-color: #efa9e9;
+
+    font-size: 32px;
+    font-weight: bold;
+
+    text-align: center;
+    line-height: 160px;
+}
+
+
+/* ==================================================
+   ЗАВДАННЯ 2
+   ТОЙ САМИЙ МАКЕТ ЗА ДОПОМОГОЮ FLEX
+   ================================================== */
+
+.flex-layout {
+    width: 70%;
+
+    margin: 30px auto 80px auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Верхній синій блок */
+
+.flex-header {
+    width: 100%;
+    height: 100px;
+
+    background-color: #6fa8dc;
+
+    font-size: 32px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Середня частина */
+
+.flex-main {
+    width: 100%;
+
+    display: flex;
+}
+
+
+/* Лівий зелений блок */
+
+.flex-image {
+    width: 75%;
+    height: 250px;
+
+    background-color: #b7e684;
+
+    font-size: 32px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Правий зелений блок */
+
+.flex-text {
+    width: 25%;
+    height: 250px;
+
+    background-color: #93b273;
+
+    font-size: 32px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Нижній рожевий блок */
+
+.flex-footer {
+    width: 100%;
+    height: 160px;
+
+    background-color: #efa9e9;
+
+    font-size: 32px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
