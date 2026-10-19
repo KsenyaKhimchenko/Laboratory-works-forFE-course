@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хімченко К.М. ІА-42 — Лабораторна №5</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <h1>Лабораторна робота №5</h1>
+    <h2>Варіант №7</h2>
+
+    <h3>Завдання 1. Перевірка даних</h3>
+
+    <form id="dataForm" novalidate>
+
+        <label for="fullName">ПІБ:</label>
+        <input type="text" id="fullName"
+               placeholder="Хімченко Ксенія Максимівна">
+
+        <label for="variant">Варіант:</label>
+        <input type="text" id="variant"
+               placeholder="7">
+
+        <label for="phone">Телефон:</label>
+        <input type="text" id="phone"
+               placeholder="(099)-123-45-67">
+
+        <label for="faculty">Факультет:</label>
+        <input type="text" id="faculty"
+               placeholder="ФІОТ">
+
+        <label for="address">Адреса:</label>
+        <input type="text" id="address"
+               placeholder="м. 123456">
+
+        <button type="submit">Перевірити</button>
+
+    </form>
+
+    <h3>Завдання 2. Таблиця 6×6</h3>
+
+    <p>
+        Оберіть колір для зафарбовування:
+    </p>
+
+    <input type="color" id="colorPicker" value="#3498db">
+
+    <p>
+        Наведіть курсор на клітинку №7,
+        натисніть на будь-яку клітинку або
+        двічі натисніть для зміни рядків.
+    </p>
+
+    <table id="numberTable"></table>
+
+</body>
+</html>
