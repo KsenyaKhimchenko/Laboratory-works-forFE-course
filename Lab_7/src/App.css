@@ -1,0 +1,86 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #222;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 35px;
+}
+
+.image-section {
+  margin-top: 20px;
+}
+
+.buttons {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  background-color: white;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
+
+.goods-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.goods-card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.goods-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+.goods-card h3 {
+  margin: 15px 0 10px;
+}
+
+.goods-card p {
+  font-weight: bold;
+  color: #333;
+}
+
+@media (max-width: 700px) {
+  .goods-gallery {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 450px) {
+  .goods-gallery {
+      grid-template-columns: 1fr;
+  }
+}
