@@ -13,37 +13,37 @@ function App() {
             id: 1,
             name: "Навушники",
             price: 2500,
-            image: "/images/product1.jpg"
+            image: `${import.meta.env.BASE_URL}images/product1.jpg`
         },
         {
             id: 2,
             name: "Смартфон",
             price: 18000,
-            image: "/images/product2.jpg"
+            image: `${import.meta.env.BASE_URL}images/product2.jpg`
         },
         {
             id: 3,
             name: "Ноутбук",
             price: 35000,
-            image: "/images/product3.jpg"
+            image: `${import.meta.env.BASE_URL}images/product3.jpg`
         },
         {
             id: 4,
             name: "Смарт-годинник",
             price: 6500,
-            image: "/images/product4.jpg"
+            image: `${import.meta.env.BASE_URL}images/product4.jpg`
         },
         {
             id: 5,
             name: "Клавіатура",
             price: 3200,
-            image: "/images/product5.jpg"
+            image: `${import.meta.env.BASE_URL}images/product5.jpg`
         },
         {
             id: 6,
             name: "Комп'ютерна миша",
             price: 1500,
-            image: "/images/product6.jpg"
+            image: `${import.meta.env.BASE_URL}images/product6.jpg`
         }
     ];
 
