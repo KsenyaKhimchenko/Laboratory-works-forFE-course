@@ -1,0 +1,485 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #002347;
+    background: #fff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1140px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* HEADER */
+
+.header {
+    background: #f2eef1;
+    padding: 24px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+
+.menu a {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #fdc632;
+}
+
+/* HERO */
+
+.hero {
+    min-height: 570px;
+    background:
+        linear-gradient(
+            rgba(244, 239, 243, 0.40),
+            rgba(244, 239, 243, 0.10)
+        ),
+        url("images/hero.jpg") center bottom / cover no-repeat;
+    text-align: center;
+}
+
+.hero-content {
+    padding-top: 100px;
+}
+
+.hero p {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 38px;
+    margin-bottom: 35px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 28px;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-blue {
+    background: #002347;
+    color: white;
+}
+
+.btn-yellow {
+    background: #fdc632;
+    color: #002347;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+/* SECTIONS */
+
+.section {
+    padding: 85px 0;
+}
+
+.section h2,
+.events h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #777;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+/* FEATURES */
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.feature-card {
+    background: #f9f9ff;
+    padding: 35px 25px;
+}
+
+.feature-icon {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.feature-card h3 {
+    font-size: 19px;
+    margin-bottom: 12px;
+}
+
+.feature-card p {
+    color: #777;
+    line-height: 1.7;
+    font-size: 14px;
+}
+
+/* COURSES */
+
+.courses-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.course-card {
+    background: #f9f9ff;
+}
+
+.course-image {
+    position: relative;
+}
+
+.course-image img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.price {
+    position: absolute;
+    right: 15px;
+    bottom: -22px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: #fdc632;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.course-info {
+    padding: 30px 22px;
+}
+
+.category {
+    display: inline-block;
+    background: #002347;
+    color: white;
+    padding: 7px 15px;
+    font-size: 11px;
+    margin-bottom: 18px;
+}
+
+.course-info h3 {
+    margin-bottom: 15px;
+}
+
+.course-info p {
+    color: #777;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.course-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    font-size: 13px;
+}
+
+/* REGISTRATION */
+
+.registration {
+    background: #002347;
+    padding: 100px 0;
+    color: white;
+}
+
+.registration-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 70px;
+    align-items: center;
+}
+
+.registration-info h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.registration-info p {
+    line-height: 1.7;
+    color: #ddd;
+}
+
+.countdown {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.countdown div {
+    background: #ffffff25;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.countdown strong {
+    font-size: 25px;
+}
+
+.countdown span {
+    display: block;
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+.register-form {
+    background: white;
+    padding: 35px;
+    color: #002347;
+    text-align: center;
+}
+
+.register-form h3 {
+    font-size: 22px;
+}
+
+.register-form p {
+    color: #888;
+    font-size: 12px;
+    margin: 10px 0 25px;
+}
+
+.register-form input {
+    display: block;
+    width: 100%;
+    padding: 13px 5px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+.register-form button {
+    width: 100%;
+    margin-top: 15px;
+}
+
+/* TRAINERS */
+
+.trainers-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.trainer-card {
+    text-align: center;
+    box-shadow: 0 3px 15px #00000010;
+    padding-bottom: 25px;
+}
+
+.trainer-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.trainer-card h3 {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.trainer-card span {
+    display: block;
+    color: #777;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.trainer-card p {
+    padding: 20px;
+    font-size: 13px;
+    line-height: 1.7;
+    color: #777;
+}
+
+/* EVENTS */
+
+.events {
+    background: #002347;
+    padding: 90px 0;
+    color: white;
+}
+
+.events .subtitle {
+    color: #bbb;
+}
+
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.event-card {
+    position: relative;
+    min-height: 280px;
+    overflow: hidden;
+}
+
+.event-card img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+
+.event-info {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 55%;
+    padding: 25px;
+    background: #002347cc;
+}
+
+.event-info h3 {
+    margin-bottom: 20px;
+}
+
+.event-info p {
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.all-events {
+    display: block;
+    text-align: center;
+    margin-top: 45px;
+    color: #fdc632;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/* ADAPTIVE DESIGN */
+
+@media (max-width: 900px) {
+    .features-grid,
+    .courses-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .trainers-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .registration-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .events-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero {
+        min-height: 450px;
+    }
+
+    .hero-content {
+        padding-top: 75px;
+    }
+
+    .hero h1 {
+        font-size: 27px;
+    }
+
+    .section {
+        padding: 55px 0;
+    }
+
+    .features-grid,
+    .courses-grid,
+    .trainers-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .countdown {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .event-info {
+        width: 65%;
+        padding: 15px;
+    }
+
+    .registration {
+        padding: 60px 0;
+    }
+}

@@ -1,0 +1,294 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduStage — Online Education</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container nav">
+            <a href="#" class="logo">📚 edustage</a>
+
+            <nav class="menu">
+                <a href="#home">Home</a>
+                <a href="#features">About</a>
+                <a href="#courses">Courses</a>
+                <a href="#trainers">Trainers</a>
+                <a href="#events">Events</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <p>BEST ONLINE EDUCATION SERVICE IN THE WORLD</p>
+            <h1>ONE STEP AHEAD THIS SEASON</h1>
+
+            <div class="hero-buttons">
+                <a href="#features" class="btn btn-blue">
+                    LEARN MORE
+                </a>
+                <a href="#courses" class="btn btn-yellow">
+                    SEE COURSE
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="section" id="features">
+        <div class="container">
+            <h2>Awesome Feature</h2>
+            <p class="subtitle">
+                Discover the benefits of learning with us
+            </p>
+
+            <div class="features-grid">
+                <article class="feature-card">
+                    <div class="feature-icon">🎓</div>
+                    <h3>Scholarship Facility</h3>
+                    <p>
+                        We offer scholarship opportunities
+                        for talented students.
+                    </p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">📖</div>
+                    <h3>Sell Online Course</h3>
+                    <p>
+                        Learn new skills with our
+                        professional online courses.
+                    </p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">🌍</div>
+                    <h3>Global Certification</h3>
+                    <p>
+                        Receive certificates recognized
+                        around the world.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- COURSES -->
+    <section class="section" id="courses">
+        <div class="container">
+            <h2>Our Popular Courses</h2>
+            <p class="subtitle">
+                Choose your path to professional growth
+            </p>
+
+            <div class="courses-grid">
+
+                <article class="course-card">
+                    <div class="course-image">
+                        <img src="images/course1.jpg"
+                             alt="Product Design">
+                        <span class="price">$25</span>
+                    </div>
+                    <div class="course-info">
+                        <span class="category">DESIGN</span>
+                        <h3>Custom Product Design</h3>
+                        <p>
+                            Learn to create modern and
+                            user-friendly products.
+                        </p>
+                        <div class="course-footer">
+                            <span>👨‍🏫 Cameron</span>
+                            <span>♡ 35</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="course-card">
+                    <div class="course-image">
+                        <img src="images/course2.jpg"
+                             alt="Social Media">
+                        <span class="price">$25</span>
+                    </div>
+                    <div class="course-info">
+                        <span class="category">DESIGN</span>
+                        <h3>Social Media Network</h3>
+                        <p>
+                            Discover digital marketing
+                            and social media design.
+                        </p>
+                        <div class="course-footer">
+                            <span>👩‍🏫 Cameron</span>
+                            <span>♡ 42</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="course-card">
+                    <div class="course-image">
+                        <img src="images/course3.jpg"
+                             alt="Computer Engineering">
+                        <span class="price">$25</span>
+                    </div>
+                    <div class="course-info">
+                        <span class="category">DESIGN</span>
+                        <h3>Computer Engineering</h3>
+                        <p>
+                            Explore programming and
+                            modern computer technologies.
+                        </p>
+                        <div class="course-footer">
+                            <span>👨‍🏫 Cameron</span>
+                            <span>♡ 28</span>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- REGISTRATION -->
+    <section class="registration" id="register">
+        <div class="container registration-grid">
+
+            <div class="registration-info">
+                <h2>Register Now</h2>
+                <p>
+                    Join our educational community
+                    and start learning today.
+                </p>
+
+                <div class="countdown">
+                    <div><strong id="days">150</strong><span>Days</span></div>
+                    <div><strong id="hours">23</strong><span>Hours</span></div>
+                    <div><strong id="minutes">47</strong><span>Mins</span></div>
+                    <div><strong id="seconds">59</strong><span>Secs</span></div>
+                </div>
+            </div>
+
+            <form class="register-form" id="registerForm">
+                <h3>Courses for Free</h3>
+                <p>It is high time for learning</p>
+
+                <input type="text" name="name"
+                       placeholder="Your Name" required>
+                <input type="tel" name="phone"
+                       placeholder="Your Phone Number" required>
+                <input type="email" name="email"
+                       placeholder="Your Email Address" required>
+
+                <button type="submit" class="btn btn-yellow">
+                    SUBMIT
+                </button>
+                <p id="formMessage" aria-live="polite"></p>
+            </form>
+
+        </div>
+    </section>
+
+    <!-- TRAINERS -->
+    <section class="section" id="trainers">
+        <div class="container">
+            <h2>Our Expert Trainers</h2>
+            <p class="subtitle">
+                Learn from experienced professionals
+            </p>
+
+            <div class="trainers-grid">
+                <article class="trainer-card">
+                    <img src="images/trainer1.jpg" alt="Mated Nathan">
+                    <h3>Mated Nathan</h3>
+                    <span>Web Designer</span>
+                    <p>
+                        Expert in modern web design
+                        and user experience.
+                    </p>
+                </article>
+
+                <article class="trainer-card">
+                    <img src="images/trainer2.jpg" alt="David Cameron">
+                    <h3>David Cameron</h3>
+                    <span>Web Developer</span>
+                    <p>
+                        Professional developer
+                        and programming mentor.
+                    </p>
+                </article>
+
+                <article class="trainer-card">
+                    <img src="images/trainer3.jpg" alt="Jain Redmel">
+                    <h3>Jain Redmel</h3>
+                    <span>Faculty Data Science</span>
+                    <p>
+                        Specialist in data analysis
+                        and machine learning.
+                    </p>
+                </article>
+
+                <article class="trainer-card">
+                    <img src="images/trainer4.jpg" alt="Nathan Macken">
+                    <h3>Nathan Macken</h3>
+                    <span>UI/UX Designer</span>
+                    <p>
+                        Creative designer focused
+                        on digital experiences.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- EVENTS -->
+    <section class="events" id="events">
+        <div class="container">
+            <h2>Upcoming Events</h2>
+            <p class="subtitle">
+                Join our upcoming educational events
+            </p>
+
+            <div class="events-grid">
+                <article class="event-card">
+                    <img src="images/event1.jpg" alt="Student event">
+                    <div class="event-info">
+                        <h3>15 June</h3>
+                        <p>
+                            Join our upcoming workshop
+                            and improve your skills.
+                        </p>
+                        <a href="#register" class="btn btn-yellow">
+                            VIEW DETAILS
+                        </a>
+                    </div>
+                </article>
+
+                <article class="event-card">
+                    <img src="images/event2.jpg" alt="Education event">
+                    <div class="event-info">
+                        <h3>20 June</h3>
+                        <p>
+                            Discover new opportunities
+                            in online education.
+                        </p>
+                        <a href="#register" class="btn btn-yellow">
+                            VIEW DETAILS
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <a href="#register" class="all-events">
+                VIEW ALL EVENT →
+            </a>
+        </div>
+    </section>
+
+</body>
+</html>
